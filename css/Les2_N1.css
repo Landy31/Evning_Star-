@@ -1,6 +1,8 @@
-
-    color: rgb(0, 162, 255);
-        font-family: 'Ephesis', cursive;
-        font-family: 'Gemunu Libre', sans-serif;
-        font-size: 40px;
-        font-weight: 100 px;
+div{
+    top: 40px;
+    left: 700px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100 px;
+    border: 35px solid crimson;
+}
