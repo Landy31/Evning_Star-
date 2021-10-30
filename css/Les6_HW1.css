@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(215, 250, 194);
+}
+h2{
+    text-align: center;
+}
+.block{
+    border-left: 20px solid rgb(215, 250, 194);
+    width: 600px;
+    height: 300px; 
+    padding: 20px;  
+}
+.white{
+    border-left: 20px solid rgb(215, 250, 194);
+    width: 600px;
+    height: 100px;
+    background-color: white; 
+}
+.blue{
+    border-left: 20px solid rgb(215, 250, 194);
+    width: 600px;
+    height: 100px;
+    background-color: blue; 
+}
+.red{
+    border-left: 20px solid rgb(215, 250, 194);
+    width: 600px;
+    height: 100px;
+    background-color: red; 
+}
+.o1{
+    border-left: 20px solid rgb(215, 250, 194);
+    padding-top: 50px;
+    width: 600px;
+    height: 100px; 
+}
+.red1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.green1{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+.blue1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+.yellow1{
+    border-left: 20px solid rgb(215, 250, 194);
+    padding: 0px;
+    margin: 0px;
+    width: 600px;
+    height: 100px;
+    background-color: yellow; 
+    float: unset;   
+}
+.gray1{
+    width: 300px;
+    height: 100px;
+    background-color: gray; 
+    float: left;   
+}
+.black1{
+    width: 300px;
+    height: 100px;
+    background-color: black;  
+    float: left;  
+}
+.o2{ 
+    border-left: 20px solid rgb(215, 250, 194);
+    width: 600px;
+    height: 100px;
+}
+.o3{
+    border: 20px solid rgb(215, 250, 194);
+    padding-right: 20px;
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0px;
+    height: 300px;
+    
+}
+.pink{
+    border: 20px solid slategray;
+    width:250px;
+    background-color: pink;
+    height: 250px;
+    float: left;
+}
+.purpure{
+    float: left;
+    background-color: purple;
+    width: 250px;
+    height: 250px;
+    border: 20px solid slategray;
+}
+.brown{
+    float: left;
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    border: 20px solid slategray;
+}
+
+
