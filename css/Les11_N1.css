@@ -1,0 +1,40 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+ 
+} 
+h2 { 
+    text-align: center; 
+} 
+.box1 { 
+    position: static;
+} 
+.box { 
+    width: 200px; 
+    height: 100px; 
+    background-color: gray; 
+    border: 2px solid black; 
+    text-align: center; 
+    line-height: 100px; 
+    margin-bottom: 10px;
+}
+.box2{
+    position: fixed;
+    top: 20px;
+    left: 300px;
+}
+.box3{
+    position:relative ;
+    top: 40px;
+    left: 160px;
+}
+.box4{
+    position: relative;
+
+}
+.box5{
+    position: sticky;
+    left: 600px;
+    top: 0PX;
+
+}
