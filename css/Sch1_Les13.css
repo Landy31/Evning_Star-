@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.big{
+    width: 100%; 
+    height: 100vh; 
+    background-color: rgb(224, 219, 219);  
+}
+.o1{
+    position: absolute;
+    width: 46vw;
+    height: 50vh;
+    background-color: white;
+    left: 27vw;
+    top: 2vh;
+}
+.o1h1{
+    position: absolute;
+    color: black;
+    font-size: 4vh;
+    font-weight: bold;     
+    top: 2vh;
+    left: 3vw;
+}
+.o1h{
+    position: absolute;
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;     
+    top: 7vh;
+    left: 3vw;
+}
+
+
+.o1a{
+    position: absolute;
+    color: black;
+    font-size: 2vh;
+    top: 11vh;
+    left: 3vw;
+}
+.o1a::after{
+    content:"›";
+    position: absolute;
+    color: black;
+    font-size: 2vh;
+    top: 0.1vh;
+    left: 12vw;
+}
+.o1a:hover::after{
+    transform: translateX(1vw);
+    transition-duration: 0.1s;
+}
+.o1a2{
+    position: absolute;
+    color: black;
+    font-size: 2vh;
+    top: 18vh;
+    left: 3vw;
+}
+.o1h2{
+    position: absolute;
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;     
+    top: 14vh;
+    left: 3vw;  
+}
+.o1a2::after{
+    background-image: url(file:///C:/Users/2/Downloads/square-regular.svg);
+    position: absolute;
+    font-size: 2vh;
+    top: 0.1vh;
+    left: 18vw;
+    color: brown;
+    font-size: 4vw;
+
+
+
+}
+
+
+
+
+
