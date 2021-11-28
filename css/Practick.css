@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 body{
     background-image: url(../../Evning_Star-/норм1.png);
-}
+}   
 *{
     padding: 0;
     margin: 0;
@@ -27,10 +27,10 @@ body{
 }
 .n1{
     position: absolute;
-    left: 15vw;
+    left: 10vw;
     top: 94vh;
     background-color: rgba(80, 77, 77, 0.692);
-    width: 66vw;
+    width: 78vw;
     height: 55vh;
     border-radius: 15px;
 }
@@ -38,7 +38,7 @@ body{
     position: absolute;
     top: 2vh;
     left: 1vw;
-    width: 20vw;
+    width: 25vw;
     height: 6vh;
 }
 .mp1{
@@ -48,46 +48,102 @@ body{
 }
 .pr1{
     position: absolute;
-    left: 2vw;
+    left: 4vw;
     top: 8vh;
-    width: 18vw;
+    width: 22vw;
     height: 20vh;
     border-radius: 15px;
     background-color: yellow;
 }
 .pr4{
     position:absolute;
-    left: 2vw;
+    left: 4vw;
     top: 33vh;
-    width: 18vw;
+    width: 22vw;
     height: 20vh;
     border-radius: 15px;
     background-color: yellow;
 }
 .pr2{
         position: absolute;
-        left: 24vw;
+        left: 28vw;
         top: 8vh;
-        width: 18vw;
+        width: 22vw;
         height: 20vh;
         border-radius: 15px;
         background-color: yellow;
 }
 .pr3{
     position: absolute;
-    left: 46vw;
+    left: 52vw;
     top: 8vh;
-    width: 18vw;
+    width: 22vw;
     height: 20vh;
     border-radius: 15px;
     background-color: yellow;
 }
 .pr5{
     position:absolute;
-    left: 24vw;
+    left: 28vw;
     top: 33vh;
-    width: 18vw;
+    width: 22vw;
     height: 20vh;
     border-radius: 15px;
     background-color: yellow;
+}
+.les1{
+    position:absolute;
+    top: 1vw;
+    left: 1vh;
+    width: 14vw;
+    height: 3vh;
+
+}
+.les1h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: rgba(32, 31, 31, 0.616);
+}
+.hr{
+    color: green;
+}
+.view1{
+    position:absolute;
+    left: 1vw;
+    top: 13vh;
+    width: 6vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: white;
+    transition: 0.3s;
+}
+.view1a{
+    position: absolute;
+    left: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: rgba(32, 31, 31, 0.616);  
+}
+.view1:hover{
+    transform: translateX(1vw);
+    transition-duration: 0.1s;
+}
+.les_card1{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 13vh;
+    left: 9vw;
+    font-size: 2vh;
+    color: brown;
+}
+.monkey1{
+    background-image: url(../джинкс.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    right: 10px;
+    top: 1px;
+    width: 10vw;
+    height: 10vh;
 }
