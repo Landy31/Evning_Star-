@@ -247,5 +247,15 @@ body{
     background-color: rgba(60, 170, 38, 0.616);
     border-radius: 3vw;
 }
+.poro{
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    top: 285vh;
+    left: 65vw;
+    border-radius: 50%;
+    background-image: url(../поро123.png);
+
+}
 
 
