@@ -18,6 +18,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2vw;
+    color: rgb(0, 0, 0);
 }
 li{
     margin-left: 1vw;  
@@ -31,20 +32,26 @@ li:hover{
 
 .o1{
     display: none;
-    background-color: brown;
+    background-color: rgb(131, 23, 82);
 }
 
 ul li:hover > .o1{
     display: block;
 }
 .a1{
+    width: 15vw;
+    margin: 0;
     padding : 0;
 }
 .a2{
-    padding: 0;
+    width: 15vw;
+    margin: 0;
+    padding : 0;
 }
 .a3{
-    padding: 0;
+    width: 15vw;
+    margin: 0;
+    padding : 0;
 }
 .fat{
     width: 100%;
