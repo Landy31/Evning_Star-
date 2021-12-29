@@ -1,7 +1,9 @@
 *{
+    text-decoration: none;
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    border-collapse: collapse;
+    list-style-type: none;
 }
 .n1{
     position: absolute;
@@ -34,6 +36,9 @@ body{
     width: 25vw;
     height: 6vh;
 }
+ul{
+    display:flex;
+}
 .card-text{
     position: relative;
     top: -70px;
@@ -46,4 +51,34 @@ body{
 .o1{
     position: relative;
     top: 100px;
+}
+.o2{
+    position: relative;
+    top: 180px;
+}
+.podsvech{
+    display: none;
+    width: 200px;
+    
+}
+ul li:hover > .podsvech{
+    display: block;
+    position: absolute;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.a2{
+    text-decoration: none;
+    color: black;
+}.a3{
+    text-decoration: none;
+    color: black;
+}.a4{
+    text-decoration: none;
+    color: black;
+}.a5{
+    text-decoration: none;
+    color: black;
 }
