@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;  
+}
 h1{
     font-weight: bold;
     text-align: center;
@@ -12,14 +18,39 @@ h1{
     color: white;
     padding-top: 50px;
 }
-.o1{
+.header{
     width: 1200px;
-    height: 300px;
+    height: 180px;
 }
-.o2{
+.brown{
+    position: static;
     width: 1200px;
     height: 600px;
-    background-color: green;
-
+    background-color: rgb(133, 77, 51);
+}
+.yellow{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: yellow;
+  width: 400px;
+  height: 600px;
+}
+ul{
+    position: static;
+    left: 380px;
+    font-size: 35px;
+    height: 300px;
+    margin: 50px;
+}
+.ul_div{
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+}
+li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
