@@ -8,49 +8,89 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-.a1{
-    width: 1200px;
-    height: 900px;
-    background-color: black;
-    margin: 0 auto;
-}
 .white{
     color: white;
     padding-top: 50px;
 }
 .header{
     width: 1200px;
-    height: 180px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: black;
 }
-.brown{
+.img{
     position: static;
+    padding: 25px;
+    width: 750px;
+   
+    
+    height: 400px;
+}
+.yb{
+    position: relative;
+    margin: 0 auto;
     width: 1200px;
-    height: 600px;
+    height: 700px;
     background-color: rgb(133, 77, 51);
 }
 .yellow{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: yellow;
-  width: 400px;
-  height: 600px;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: yellow;
+    width: 400px;
+    height: 700px;
+  }
+.brown{
+    position: absolute;
+    left: 400px;
+    width: 800px;
+    height: 700px;
 }
 ul{
     position: static;
-    left: 380px;
     font-size: 35px;
+    width: 100px;
     height: 300px;
     margin: 50px;
 }
-
 li{
     padding: 8px;
     font-size: 25px;
+
 }
 li:hover{
     font-weight: bold;
 }
+
+.articl{
+    position: static;
+    left: 550px;
+    color: white;
+}
+.black_square{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 750px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.black{
+    width: 25%;
+    height: 150px;
+    background-color: #000;
+}
+.black:hover{
+    background-color: purple;
+    width: 30%;
+    height: 200px
+}
 a{
     color: black;
 }
+
+
